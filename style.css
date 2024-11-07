@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #7698B3, #73AB84);
+    padding: 20px;
+}
+.todo-app{
+    /* width: 100%; */
+    max-width: 500px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 20px 30px 50px;
+    border-radius: 50px 50px;
+    /* border: 3px dashed black; */
+}
+.todo-app h1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 50px;
+    align-items: center;
+    /* border: 5px solid black; */
+
+
+}
+.todo-app h1 img{
+    width: 40px;
+    margin:2px;
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    background: #7698B3;
+    padding-left: 25px;
+    border: 2px solid black;
+}
